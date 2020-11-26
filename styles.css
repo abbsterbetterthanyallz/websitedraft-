@@ -1,0 +1,78 @@
+body {
+    background-color: lightpink !important;
+}
+
+.container {
+    background-color: lightpink;
+}
+
+.main-page {
+    background-color: lightpink !important;
+    background-image: url("images/elise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:auto;
+    width: 780px;
+
+    height: 900px;
+    /* padding-top: 100% */
+}
+
+.display-3 {
+    color: snow;
+}
+
+.card-text {
+    color: snow;
+}
+
+.card-text a { 
+    color: snow;
+}
+
+p {
+  color:mediumvioletred;
+}
+
+h5 a {
+        color: snow;
+        font-family: bold;
+}
+
+.card-body {
+    color: pink;
+}
+
+footer {
+ background: palevioletred;
+  text-align: center;
+  padding: 1px;
+}
+
+.parallax {
+    background-color: white;
+    background-image: url("images/syn.jpg");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*following just for demo purposes to add height and top padding*/
+    height:300vh;
+    padding-top:100vh;
+/* }
+.parallax-curtain{
+  height:100vh;
+  background:rgba(255,255,255,0.5);
+} */
+}
+
+.img-thumbnail {
+    width: 60px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
